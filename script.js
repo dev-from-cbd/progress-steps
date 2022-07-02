@@ -8,5 +8,7 @@ let currentActive = 1;
 next.addEventListener("click", () => {
   currentActive++;
 
-  console.log(currentActive);
+  if() {
+    
+  }
 });
