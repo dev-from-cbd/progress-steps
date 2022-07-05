@@ -5,6 +5,14 @@ const circles = document.querySelectorAll(".circle");
 
 let currentActive = 1;
 
+prev.addEventListener("click", () => {
+  currentActive++;
+
+  if (currentActive > circles.length) {
+    currentActive = circles.length;
+  }
+});
+
 next.addEventListener("click", () => {
   currentActive++;
 
