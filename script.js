@@ -11,6 +11,8 @@ prev.addEventListener("click", () => {
   if (currentActive < 1) {
     currentActive = 1;
   }
+
+  update();
 });
 
 next.addEventListener("click", () => {
