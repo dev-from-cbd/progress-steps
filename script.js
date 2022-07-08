@@ -8,8 +8,8 @@ let currentActive = 1;
 prev.addEventListener("click", () => {
   currentActive--;
 
-  if (currentActive > circles.length) {
-    currentActive = circles.length;
+  if (currentActive < 1) {
+    currentActive = 1;
   }
 });
 
