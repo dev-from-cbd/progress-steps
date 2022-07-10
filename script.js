@@ -24,3 +24,7 @@ next.addEventListener("click", () => {
 
   update();
 });
+
+function update() {
+
+};
