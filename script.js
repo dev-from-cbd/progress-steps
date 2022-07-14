@@ -27,6 +27,8 @@ next.addEventListener("click", () => {
 
 function update() {
   circles.forEach((circle, idx) => {
-    if(idx < circleActive)
+    if(idx < circleActive){
+      circle.classList.add('active')
+    }
   });
 }
