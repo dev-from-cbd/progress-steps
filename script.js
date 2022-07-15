@@ -29,6 +29,8 @@ function update() {
   circles.forEach((circle, idx) => {
     if(idx < circleActive){
       circle.classList.add('active')
+    } else {
+      
     }
   });
 }
